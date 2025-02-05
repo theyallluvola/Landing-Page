@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF1F5;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  section {
+    height: 78vh;
+  }
+  
+  /*Navbar*/
+  
+  li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  header, .face {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10%;
+  }
+  
+  header img {
+    width: 300px;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin-left: 160px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  
+  .nav-links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav-links li a:hover {
+    color: #374552;
+  }
+  
+  .cta button {
+    padding: 9px 25px;
+    background-color: rgba(55, 69, 82, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .cta button:hover {
+    background-color: rgba(55, 69, 82, 0.8);
+  }
+  
+  .cta {
+    margin-left: auto;
+  }
+  
+  /*Home*/
+  
+  .face {
+    background-color: #374552;
+    border-radius: 30px;
+    margin: 0 10% 0 10%;
+    color: white; 
+  }
+  
+  .header {
+    background-color: #ff6f61;
+    padding: 20px;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .header p {
+    font-size: 14px;
+  }
+  
+  .chef-image {
+    text-align: right;
+    padding: 20px;
+  }
+  .chef-image img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .title {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+  }
