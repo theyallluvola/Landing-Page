@@ -476,3 +476,106 @@ section {
 .backward {
     color: #949494;
 }
+
+/* Section 4 */
+
+#four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF1F5;
+}
+
+#four h1 {
+    margin-top: -15vh;
+    color: #000000;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.blog-body {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+.blog-img {
+    width: 476px;
+    height: 268px;
+    background-image:url(assets/images/chef2.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.left-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-blog {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-left: 10vh;
+}
+
+.sub-title {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.desc {
+    margin-top: -3%;
+    color: #374552;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.blog-read-more {
+    color: #374552;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.blog-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.blog-buttons .arrow-button {
+    background: #374552;
+    color: white;
+}
+
+.blog-buttons .arrow-button:hover {
+    color: rgba(247, 95, 139, 1);
+}
+
+.more-blogs button {
+    background: #374552;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.more-blogs button:hover {
+    color: rgba(247, 95, 139, 1);
+}
