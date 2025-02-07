@@ -423,7 +423,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: ;
 }
 
 .card-info img {
@@ -471,6 +470,7 @@ section {
 .forward, .backward {
     height: 30px;
     width: 30px;
+    cursor: pointer;
 }
 
 .backward {
